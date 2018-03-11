@@ -1,0 +1,27 @@
+{
+  "name": "gnaryak",
+  "version": "0.0.1",
+  "description": "The code for gnaryak.com",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js test/*.test.js",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnaryak/gnaryak.git"
+  },
+  "author": "Andrew Guldman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnaryak/gnaryak/issues"
+  },
+  "homepage": "https://github.com/gnaryak/gnaryak#readme",
+  "dependencies": {
+    "next": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
